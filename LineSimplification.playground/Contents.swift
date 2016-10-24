@@ -3,6 +3,10 @@ import PlaygroundSupport
 import MapKit
 
 PlaygroundPage.current.needsIndefiniteExecution = true
+
+//PlaygroundTestObserver.observe()
+//TestRunner(TriangleTests.self).run()
+
 enum MapViewDelegateError:Error {
     case unsupportedOverlayKind
 }
